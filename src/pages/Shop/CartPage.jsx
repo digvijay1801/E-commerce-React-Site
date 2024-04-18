@@ -91,7 +91,7 @@ const CartPage = () => {
                           <Link to="/shop-single">{item.name}</Link>
                         </div>
                       </td>
-                      <td className="cat-price">${item.price}</td>
+                      <td className="cat-price">&#8377;{item.price}</td>
                       <td className="cat-quantity">
                         <div className="cart-plus-minus">
                           <div
