@@ -115,7 +115,7 @@ const CartPage = () => {
                         </div>
                       </td>
                       <td className="cat-toprice">
-                        ${calculateTotalPrice(item)}
+                        &#8377;{calculateTotalPrice(item)}
                       </td>
                       <td className="cat-edit">
                         <a href="#" onClick={() => handleRemoveItem(item)}>
