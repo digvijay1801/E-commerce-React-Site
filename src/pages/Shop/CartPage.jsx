@@ -172,10 +172,10 @@ const CartPage = () => {
                       <div className="outline-select shipping-select">
                         <select>
                           <option value="volvo">State/Country</option>
-                          <option value="saab">Dhaka</option>
-                          <option value="saab">Benkok</option>
+                          <option value="saab">Maharastra</option>
+                          <option value="saab">Delhi</option>
                           <option value="saab">Kolkata</option>
-                          <option value="saab">Kapasia</option>
+                          <option value="saab">Chennai</option>
                         </select>
                         <span className="select-icon">
                           <i className="icofont-rounded-down"></i>
@@ -198,7 +198,7 @@ const CartPage = () => {
                       <ul className="lab-ul">
                         <li>
                           <span className="pull-left">Cart Subtotal</span>
-                          <p className="pull-right">$ {cartSubtotal}</p>
+                          <p className="pull-right">&#8377;{cartSubtotal}</p>
                         </li>
                         <li>
                           <span className="pull-left">
@@ -209,7 +209,7 @@ const CartPage = () => {
                         <li>
                           <span className="pull-left">Order Total</span>
                           <p className="pull-right">
-                            $ {orderTotal.toFixed(2)}
+                          &#8377; {orderTotal.toFixed(2)}
                           </p>
                         </li>
                       </ul>
